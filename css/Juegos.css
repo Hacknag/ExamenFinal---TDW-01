@@ -1,0 +1,50 @@
+h2{
+    padding: 20px;
+    font-weight: bold;
+}
+
+.contenedor-juegos{
+    max-width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(to left, #F47521, #000);
+    color: white;
+}
+
+.Grid-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+}
+
+.box-valor{
+    position: relative;
+    /* rgb(240, 187, 69) */
+    align-items: center;
+    border-radius: 15%;
+}
+
+.box-valor img{
+    width: 100%;
+    height: auto;    
+    display: block;
+    border-radius: 15%;
+}
+
+.contenedor-grid{
+display: flex;
+justify-content: center;
+}
+
+figcaption{
+    text-align: center;
+    padding: 7px 0 0 0;
+}
+
+.i-margin{
+    margin-right: 6px;
+}
+
+figcaption i{
+    margin: 0 1.5px;
+}

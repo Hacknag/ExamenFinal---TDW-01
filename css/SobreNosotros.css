@@ -1,0 +1,79 @@
+.p-about{
+text-align: center;
+padding: 20px;
+
+}
+
+.iframe-centrado{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+h2{
+    padding: 20px;
+    font-weight: bold;
+}
+
+#Ubicanos{
+    margin-top: 40px;
+}
+
+#Valores {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#Ubicanos p{
+    padding: 0 20px;
+    width: 70%;
+}
+
+.Grid-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    max-width: 90%;
+ 
+}
+
+.box-valor{
+    position: relative;
+    border: 10px solid rgb(240, 187, 69);
+    padding: 0.75rem;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.box-valor .valor-img{
+    width: 100%;
+    height: auto;
+    max-width: 170px;
+    display: block;
+}
+
+
+.box-valor .texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+
+
+.box-valor .texto h3{
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #58585b;
+    
+
+}
+
+
+.contenedor-grid{
+display: flex;
+justify-content: center;
+}

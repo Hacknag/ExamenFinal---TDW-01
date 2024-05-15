@@ -1,0 +1,28 @@
+.p-about{
+    text-align: center;
+    padding: 20px;
+    
+    }
+
+    h2{
+        padding: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .img-manga{
+        width: 1000px;
+        height: 800px;
+
+    }
+
+    .manga-centro{
+        text-align: center;
+        margin: 20px;
+    }
+
+    h3{
+        padding-top: 10px;
+        font-weight: bold;
+        margin-left: 30px;
+    }
